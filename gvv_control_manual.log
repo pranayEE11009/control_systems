@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2019.2.14)  8 APR 2020 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2019.2.14)  9 APR 2020 12:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -746,11 +746,12 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks42
 \verbatim@in@stream=\read2
 )
-No file gvv_control_manual.aux.
+(./gvv_control_manual.aux)
 \openout1 = `gvv_control_manual.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 83.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 83.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
@@ -845,49 +846,71 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 238.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-No file gvv_control_manual.toc.
+(./gvv_control_manual.toc)
 \tf@toc=\write4
 \openout4 = `gvv_control_manual.toc'.
 
-(./chapters/ee18btech11009.tex
-Underfull \hbox (badness 4084) in paragraph at lines 3--5
+ (./chapters/ee18btech11009.tex
+File: ./figs/pppp.eps Graphic file (type eps)
+ <./figs/pppp.eps>
+Underfull \hbox (badness 4084) in paragraph at lines 4--20
 []\OT1/txr/m/n/12 The asymp-totic Bode mag-ni-tude plot of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-File: ./figs/pppp.eps Graphic file (type eps)
-<./figs/pppp.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 6--20
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
 
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 6--20
+Underfull \hbox (badness 2495) in paragraph at lines 4--20
 \OT1/txr/bx/n/12 Statement 1: \OT1/txr/m/n/12 Trans-fer func-tion G(s) has
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--20
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
 \OT1/txr/bx/n/12 State-ment 2: \OT1/txr/m/n/12 At very high fre-quency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--20
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
 
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 30--32
+Underfull \hbox (badness 10000) in paragraph at lines 4--20
+
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 31--33
 []\OT1/txr/m/n/12 Now, from the Trans-fer equa-tion we can
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 38--42
+\OT1/txr/m/n/12 phase $\OML/txmi/m/it/12 ^^^$ \OT1/txr/m/n/12 is the sum of all
+ the phases
  []
 
 
@@ -899,18 +922,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ])
 [2
 
-] (./gvv_control_manual.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./gvv_control_manual.aux) ) 
 Here is how much of TeX's memory you used:
- 22206 strings out of 492983
- 503849 string characters out of 6134922
- 633395 words of memory out of 5000000
+ 22210 strings out of 492983
+ 503941 string characters out of 6134922
+ 632395 words of memory out of 5000000
  25435 multiletter control sequences out of 15000+600000
  68203 words of font info for 165 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,9n,54p,510b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,9n,54p,510b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_control_manual.dvi (2 pages, 9408 bytes).
+Output written on gvv_control_manual.dvi (2 pages, 10016 bytes).

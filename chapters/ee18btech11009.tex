@@ -1,8 +1,14 @@
-
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi} 
 \item 
 The asymptotic Bode magnitude plot of  minimum phase transfer function
 G(s) is show below.\\
-
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=1 \columnwidth]{./figs/pppp.eps}
+	\caption{}
+	\label{fig:galaxy}
+\end{figure} 
 Consider the following two statements.\\ \\
  \textbf{Statement 1:} Transfer function G(s) has 3 poles and one zero \\
  \textbf{ Statement 2:} At very high frequency $(\omega \to \infty)$, the phase angle $ \angle G(j\omega)=-3\pi/2$ \\ \\
@@ -11,12 +17,7 @@ Which of the following is correct ? \\
 (B) Statement 1 is false and Statement 2 is true.\\
 (C) Both the statements are true.\\
 (D) Both the statements are false.\\
-\begin{figure}[htp]
-	\centering
-	\includegraphics[width=1 \columnwidth]{./figs/pppp.eps}
-	\caption{}
-	\label{fig:galaxy}
-\end{figure} 
+
 
 \solution
 
@@ -30,11 +31,11 @@ G(s) = \frac{k}{s(1+s)(20+s)}
 Now, from the Transfer equation we can conclude that,
 there are three poles (0, -1 and -20 ) and no zeros.\\
 
-$\therefore$ Statement 1 is false  ..........(1)
+$\therefore$ Statement 1 is false  ..........(1)\\ \\
 
 %------------------------------------------------
 
-Calculating phase\\
+\textbf{Calculating phase:}\\ \\
 Since we know that,\\
 phase $ \phi $ is the sum of all the phases corresponding to each pole and zero.\\
 phase corresponding to pole is =  
@@ -74,4 +75,4 @@ Therefore,
  \end{align} 
  $\therefore$ Statement 2 is true ........(2)\\
  thus, from (1) and (2) option (B) is correct.
- 
+ \end{enumerate}
