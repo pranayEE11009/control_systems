@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2019.2.14)  9 APR 2020 12:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2019.2.14)  9 APR 2020 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (./gvv_control_manual.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/IEEEtran/IEEEtran.cls
+(./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -746,13 +746,17 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks42
 \verbatim@in@stream=\read2
 )
-No file gvv_control_manual.aux.
+(./gvv_control_manual.aux
+
+LaTeX Warning: Label `fig:galaxy' multiply defined.
+
+)
 \openout1 = `gvv_control_manual.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 83.
 LaTeX Font Info:    Try loading font information for OML+txmi on input line 83.
 
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    ... okay on input line 83.
@@ -845,11 +849,11 @@ LaTeX Font Info:    Try loading font information for U+txsyc on input line 238.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-No file gvv_control_manual.toc.
+(./gvv_control_manual.toc)
 \tf@toc=\write4
 \openout4 = `gvv_control_manual.toc'.
 
-(./chapters/ee18btech11009.tex
+ (./chapters/ee18btech11009.tex
 File: ./figs/pppp.eps Graphic file (type eps)
  <./figs/pppp.eps>
 Underfull \hbox (badness 4084) in paragraph at lines 4--20
@@ -918,21 +922,114 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 
-])
-[2
+]
+Underfull \hbox (badness 10000) in paragraph at lines 75--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--82
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+txss on input line 82.
+
+(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txss.fd
+File: ot1txss.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 82.
+File: ./figs/ee18btech11001.eps Graphic file (type eps)
+
+<./figs/ee18btech11001.eps>
+Underfull \hbox (badness 2478) in paragraph at lines 92--95
+\OT1/txr/bx/n/12 Solution: \OT1/txss/m/n/12 Let us con-sider a gen-er-al-ized
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--95
+
+ []
+
+
+Overfull \hbox (6.33408pt too wide) detected at line 104
+ []$[]  \OML/txmi/m/it/12 Gain \OT1/txr/m/n/12 = 20 [] [] = 20 [] [] + 20 [] []
+$ 
+ []
+
+
+Overfull \hbox (10.14735pt too wide) detected at line 104
+ []$[] \OT1/txr/m/n/12 + 20 [] [] + [] + 20 [] [] \OMS/txsy/m/n/12 ^^@ \OT1/txr
+/m/n/12 20 [] []$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--121
+
+ []
+
+
+Overfull \hbox (55.82056pt too wide) detected at line 126
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--144
+
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 135--144
+\OT1/txr/m/n/12 Doing sim-i-lar anal-y-sis for $\OMS/txsy/m/n/12 ^^@\OT1/txr/m/
+n/12 20 [] []$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--144
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Overfull \hbox (5.46352pt too wide) detected at line 179
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--221
+
+ []
+
+File: ./figs/ee18btech11001_2.eps Graphic file (type eps)
+<./figs/ee18btech11001_2.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 226--235
+
+ []
+
+) [3
 
 ] (./gvv_control_manual.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22207 strings out of 492983
- 503994 string characters out of 6134922
- 633395 words of memory out of 5000000
- 25435 multiletter control sequences out of 15000+600000
- 68203 words of font info for 165 fonts, out of 8000000 for 9000
+ 22247 strings out of 492983
+ 504624 string characters out of 6134922
+ 640395 words of memory out of 5000000
+ 25466 multiletter control sequences out of 15000+600000
+ 68882 words of font info for 166 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 55i,9n,54p,510b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,510b,409s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on gvv_control_manual.dvi (2 pages, 9684 bytes).
+Output written on gvv_control_manual.dvi (3 pages, 15872 bytes).
