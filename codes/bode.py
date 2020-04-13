@@ -75,12 +75,16 @@ import matplotlib.pyplot as plt
 s1 = signal.lti(num, den) 
 
 w, mag, phase = signal.bode(s1)
+
 plt.figure()
-plt.xlabel("f")
-plt.ylabel("H(f)")
+plt.xlabel("w")
+plt.xlim(0.1,40)
+
+plt.ylabel("|G(jw)|")
 plt.title("Bode Plot")
 plt.semilogx(w, mag)    # Bode magnitude plot
-x = np.array([0.01,1,10,20,40])
+
+x = np.array([0.1,1,20,40])
 y = []
 for i in x:
     k1 = Num[0]
@@ -89,7 +93,7 @@ for i in x:
     y.append(k)
 
 plt.plot(x,y)
-plt.legend(["Calculated Plot" , "Given Plot"])   
+plt.legend(["Calculated Bode Plot" , "Line Plot"])   
 
 #if using termux
 #plt.savefig('./figs/bode_ayush.pdf')
